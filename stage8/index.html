@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <title>Web Audio API</title>
+    <link rel="stylesheet" href="/main.css"/>
+    </head>
+    <body>
+        <h1>Web Audio API: Visualisation</h1>
+        <div id="example">
+            <audio controls="controls" class="hideIfNoApi" src="sounds/elise.mp3" id="player"> </audio>
+            <div id="circle-outer"><div id="circle"><div id="circle-inner"><div id="inner"></div></div></div></div>
+            <div class="counter">Average Frequency, Hz: <span id="fr"></span><span style="display: none">0</span>
+        </div>
+        <script src="js/jquery.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>
